@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/costum.css">
+  <link rel="stylesheet" href="css/lightbox.min.css">
+  <title>Leírás</title>
+
+</head>
+<body class="iframe_tartalmak" name="tartalmak">
+
+  <input type = "button" value = "Normál betűméret" id = "small" class="btn"/> <input type = "button" value = "Nagy betűméret" id = "normal" class="btn"/> <input type = "button" value = "Extranagy betűméret" id = "large" class="btn"/>
+
+  <h1>Mária Kultusz Máriabesnyőn</h1>
+  <br>
+
+  <p id="szoveg"> 
+   Szűz Mária kultuszának meghonosítása Máriabesnyőn a templomot alapító Grassalkovich I. Antal és felesége Klobusiczky Terézia nevéhez fűződik. Eredetileg az itáliai loretoi kápolna mintájára tervezett első kegyhelyet a gróf és hitvese magánhasználatra szánta és 1759-ben kezdte építeni. Ekkor, az építkezés során, mintegy csodás eseményként került elő a kegyhely és majdani búcsújáróhely – a loretoi kegyszobor vallásos tiszteletét is felülmúló - kultusztárgya, a kisméretű, csontból faragott, gyermekét jobbjában tartó Szűzanya ábrázolása.
+   <br>
+A besnyői kápolnában a vallásos grófnő szombatonként végezte ájtatosságait, azonban példaadása, illetve a csodás körülmények között előkerült Szűzanya szobrocska nyomán hamarosan számottevő sokaság kereste fel a kegyhelyet. A szűkössé vált kápolna elé a gróf templom építését határozta el, továbbá a kegyhely gondozása céljából 1763-ban zárdát építtetett és kapucinus atyákat telepített le.  
+<br>
+A népi vallásosságban betöltött jelentőségét a számos csodás imameghallgatás és gyógyulás alapozta meg. Népszerűsége mint közkedvelt búcsújáró hely az idők folyamán növekedett, a hívők messze földről zarándokoltak ide, hogy a csodatévő Szent Szűz oltalma alatt imádkozzanak. A kegyhely történetében az egyik legnagyobb tömegeket vonzó esemény a négynapos centenáriumi búcsú alkalmával 1863. szeptemberében, Kisboldogasszony ünnepén történt. A feljegyzések szerint ekkor mintegy ötvenezer lélek volt jelen az ünnepélyen. Az ünnepélyt a püspök nyitotta meg és szentbeszédében buzdította a jelenlévőket Szűz Mária tiszteletére. A búcsújárók létszáma 1949-ig folyamatosan növekedett. Az ünnepek közül a két legfontosabbnak a Nagyboldogasszony napi főbúcsú és a Kisasszony napjának ünnepe tekinthető.
+<br>
+ </p>
+ <center>
+ <div id="gallery">
+     <a class="example-image-link" href="img/02_terem/1.jpg" data-lightbox="example-set" data-title="<h3>Főoltár</h3>">
+    <img class="example-image" src="img/02_terem/thumbs/1.jpg" alt=""/></a>
+    <a class="example-image-link" href="img/02_terem/2.jpg" data-lightbox="example-set" data-title="<h3>Kegyszobor</h3>">
+    <img class="example-image" src="img/02_terem/thumbs/2.jpg" alt=""/></a>
+    <a class="example-image-link" href="img/02_terem/3.jpg" data-lightbox="example-set" data-title="<h3>Loretoi szobor</h3>">
+    <img class="example-image" src="img/02_terem/thumbs/3.jpg" alt=""/></a>
+    <a class="example-image-link" href="img/02_terem/4.jpg" data-lightbox="example-set" data-title="<h3>Máriabesnyő  19. század végén</h3>">
+    <img class="example-image" src="img/02_terem/thumbs/4.jpg" alt=""/></a>
+  </div>
+</center>
+  <script>
+  var content = document.getElementById("szoveg");
+  var smallButton = document.getElementById("small");
+  var normalButton = document.getElementById("normal");
+  var largeButton = document.getElementById("large");
+  smallButton.onclick = function(e){
+  content.style.fontSize = "26px";
+  }
+  normalButton.onclick = function(e){
+  content.style.fontSize = "33px";
+  }
+  largeButton.onclick = function(e){
+  content.style.fontSize = "40px";
+  }
+  </script>
+
+   <script src="js/lightbox-plus-jquery.min.js"></script>
+   <script src="js/jquery-3.1.1.slim.min.js"></script>
+   <script src="js/bootstrap.min.js"></script>
+   <script src="js/jquery-3.1.1.slim.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+
+</body>
+</html>
